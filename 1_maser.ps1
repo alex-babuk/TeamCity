@@ -1,11 +1,8 @@
 
 
-#1/6
+#1.7
 #new-object
 
-$IE=new-object -com internetexplorer.application
-$IE.navigate2("www.microsoft.com")
-$IE.visible=$true
-
+chrome.exe "http://nagios.com/"
 get-date
 
